@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "303b4672b167b4dd18618d72e36ca797"
+build_time: [498031782, 342270000]
+inputs: 
+	"/Users/aromalsasidharan/Documents/Developer/IOS/Example/LoggerFrameWork/LoggerFrameWork/Logger.swift": [498031473, 0]

@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		58EE5C051BC64A24006EF8B5 /* LoggerFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EE5C041BC64A24006EF8B5 /* LoggerFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58EE5C0F1BC64A6B006EF8B5 /* JRTranscriptView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EE5C0C1BC64A6B006EF8B5 /* JRTranscriptView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58EE5C101BC64A6B006EF8B5 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EE5C0D1BC64A6B006EF8B5 /* Logger.swift */; settings = {ASSET_TAGS = (); }; };
+		58EE5C111BC64A6B006EF8B5 /* JRTranscriptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE5C0E1BC64A6B006EF8B5 /* JRTranscriptView.m */; settings = {ASSET_TAGS = (); }; };
+		58EE5C171BC65017006EF8B5 /* Logger.swift in Resources */ = {isa = PBXBuildFile; fileRef = 58EE5C0D1BC64A6B006EF8B5 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58EE5C011BC64A24006EF8B5 /* LoggerFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EE5C041BC64A24006EF8B5 /* LoggerFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerFrameWork.h; sourceTree = "<group>"; };
 		58EE5C061BC64A24006EF8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58EE5C0C1BC64A6B006EF8B5 /* JRTranscriptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTranscriptView.h; sourceTree = "<group>"; };
+		58EE5C0D1BC64A6B006EF8B5 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		58EE5C0E1BC64A6B006EF8B5 /* JRTranscriptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTranscriptView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,9 @@
 		58EE5C031BC64A24006EF8B5 /* LoggerFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				58EE5C0C1BC64A6B006EF8B5 /* JRTranscriptView.h */,
+				58EE5C0D1BC64A6B006EF8B5 /* Logger.swift */,
+				58EE5C0E1BC64A6B006EF8B5 /* JRTranscriptView.m */,
 				58EE5C041BC64A24006EF8B5 /* LoggerFrameWork.h */,
 				58EE5C061BC64A24006EF8B5 /* Info.plist */,
 			);
@@ -60,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58EE5C051BC64A24006EF8B5 /* LoggerFrameWork.h in Headers */,
+				58EE5C0F1BC64A6B006EF8B5 /* JRTranscriptView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +101,7 @@
 		58EE5BF81BC64A24006EF8B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Aromal Sasidharan";
 				TargetAttributes = {
@@ -120,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58EE5C171BC65017006EF8B5 /* Logger.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58EE5C111BC64A6B006EF8B5 /* JRTranscriptView.m in Sources */,
+				58EE5C101BC64A6B006EF8B5 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +188,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -215,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -228,28 +243,34 @@
 		58EE5C0A1BC64A24006EF8B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LoggerFrameWork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codebase.LoggerFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		58EE5C0B1BC64A24006EF8B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LoggerFrameWork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codebase.LoggerFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +297,7 @@
 				58EE5C0B1BC64A24006EF8B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

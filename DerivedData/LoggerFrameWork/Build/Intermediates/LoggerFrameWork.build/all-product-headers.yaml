@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/aromalsasidharan/Documents/Developer/IOS/Example/LoggerFrameWork/DerivedData/LoggerFrameWork/Build/Products/Debug-iphonesimulator/LoggerFrameWork.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JRTranscriptView.h",
+          'external-contents': "/Users/aromalsasidharan/Documents/Developer/IOS/Example/LoggerFrameWork/LoggerFrameWork/JRTranscriptView.h"
+        },
+        {
+          'type': 'file',
+          'name': "LoggerFrameWork-Swift.h",
+          'external-contents': "/Users/aromalsasidharan/Documents/Developer/IOS/Example/LoggerFrameWork/DerivedData/LoggerFrameWork/Build/Products/Debug-iphonesimulator/LoggerFrameWork.framework/Headers/LoggerFrameWork-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "LoggerFrameWork.h",
+          'external-contents': "/Users/aromalsasidharan/Documents/Developer/IOS/Example/LoggerFrameWork/LoggerFrameWork/LoggerFrameWork.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aromalsasidharan/Documents/Developer/IOS/Example/LoggerFrameWork/DerivedData/LoggerFrameWork/Build/Products/Debug-iphonesimulator/LoggerFrameWork.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aromalsasidharan/Documents/Developer/IOS/Example/LoggerFrameWork/DerivedData/LoggerFrameWork/Build/Intermediates/LoggerFrameWork.build/Debug-iphonesimulator/LoggerFrameWork.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

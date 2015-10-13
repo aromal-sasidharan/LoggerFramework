@@ -1,0 +1,1 @@
+ const unsigned char LoggerFrameWorkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:LoggerFrameWork  PROJECT:LoggerFrameWork-1" "\n"; const double LoggerFrameWorkVersionNumber __attribute__ ((used)) = (double)1.;
